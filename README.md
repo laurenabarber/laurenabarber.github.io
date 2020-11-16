@@ -8,10 +8,10 @@
     </head>
     <body>
         <header>
-            
             <section id="title-subtitle">
-                <h2> laurenabarber</h2>
-                
+                <h2>laurenabarber  <a href="https://www.instagram.com/laurenabarber/">
+  <img src="instagramlogo.jpg" alt="laurenabarber" style="width:25px;height:25px;border:0 float:right;"> 
+</a></h2>
             </section>
             <button id="hamburger-button">
                 <div></div>
@@ -33,5 +33,10 @@
 
    <div class="rightcolumn"></div>
 
+<footer>
+            <p>&copy; laurenabarber</p>
+        </footer>
+    </body>
+</html>
 
 
