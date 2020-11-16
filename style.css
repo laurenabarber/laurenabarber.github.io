@@ -289,3 +289,10 @@ body {
 .circular--square {
     border-radius: 50%;
 }
+
+.README.md {
+     font-family: "advent pro", advent pro , advent pro;
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
