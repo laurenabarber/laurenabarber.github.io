@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="styles.css">
-</head>
 <html lang="en">
     <head>
         <meta charset="utf-8">
