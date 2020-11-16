@@ -28,7 +28,8 @@
                 <li><a  href= "about.html">About</a></li>
             </ul>
         </nav>
-
+<!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/890547" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:800px; height:160px"></iframe>
 </a>
   </div>
   <div class="rightcolumn"></div>
