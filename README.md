@@ -1,4 +1,4 @@
-# laurenabarber.github.io
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -40,7 +40,7 @@
             <p>&copy; laurenabarber</p>
         </footer>
     </body>
-</html>
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -187,6 +187,5 @@
         <footer>
             <p>&copy; laurenabarber</p>
         </footer>
-    </body>
-</html>
+
 
