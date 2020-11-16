@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="styles.css">
+</head>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -13,7 +15,6 @@
   <img src="instagramlogo.jpg" alt="laurenabarber" style="width:25px;height:25px;border:0 float:right;"> 
 </a></h2>
                 <link rel="stylesheet" href="style.css">
-
     <body>
             <button id="hamburger-button">
                 <div></div>
