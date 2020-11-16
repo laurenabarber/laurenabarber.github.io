@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <header>
+            
+            <section id="title-subtitle">
+                <h2>laurenabarber  <a href="https://www.instagram.com/laurenabarber/">
+  <img src="instagramlogo.jpg" alt="laurenabarber" style="width:25px;height:25px;border:0 float:right;"> 
+</a></h2>
+            </section>
+            <button id="hamburger-button">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </header> 
+          <nav id="top-menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="toys.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a  href= "about.html">About</a></li>
+            </ul>
+        </nav>
+        
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="IMG_0279.jpg" style="width:100%" >
+    <div class="text">FASHION</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="IMG_0283.jpg" style="width:100%">
+    <div class="text">PHOTOGRAPHY</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="IMG_0282.jpg" style="width:100%">
+    <div class="text">TRAVEL</div>
+  </div>
+
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+        <script>        var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}</script>
+
+        <title>laurenabarber</title>
+        <link rel="shortcut icon" href="laurenabarber.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<main> <h1>Welcome to the world of @laurenabarber</h1>
+        </main>
+        
+        <!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/816003" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+     <form action="action_page.php">
+  <div class="container">
+    <h2>Subscribe to @laurenabarber </h2>
+      <p>A new blog post every Monday!</p>
+  </div>
+
+  <div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Blog Posts
+    </label> 
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+        <footer>
+            <p>&copy; laurenabarber</p>
+        </footer>
+    </body>
+</html>
