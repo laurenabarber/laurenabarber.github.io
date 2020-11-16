@@ -20,7 +20,6 @@
                 <div></div>
                 <div></div>
             </button>
-        </header>
         <nav id="top-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
