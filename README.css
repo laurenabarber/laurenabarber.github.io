@@ -289,3 +289,18 @@ body {
 .circular--square {
     border-radius: 50%;
 }
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li + li {
+    padding-left: 20px;
+    color: black;
+}
+nav ul li .current {
+    text-decoration: none;
+}
