@@ -1,11 +1,11 @@
 
 html {
-    background-color: white;
+    background-color: light gray;
 }
 body {
     font-family: "advent pro", advent pro , advent pro;
     width: 90%;
-    background:rgba(0, 128, 0, 0.3) /* gray background with 30% opacity */;
+    background: white;
 background-position: center;
     margin: 0 auto;
 }
