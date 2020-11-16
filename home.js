@@ -87,8 +87,4 @@ function showSlides(n) {
     <input type="submit" value="Subscribe">
   </div>
 </form>
-        <footer>
-            <p>&copy; laurenabarber</p>
-        </footer>
-    </body>
-</html>
+
