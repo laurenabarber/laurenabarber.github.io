@@ -1,26 +1,22 @@
-# laurenabarber.github.io
-<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>laurenabarber</title>
-        
-        <link rel="stylesheet" href="style.css">
-    </head>
     <body>
         <header>
-            
             <section id="title-subtitle">
-                <h2> laurenabarber</h2>
-                
-            </section>
+                <h2>laurenabarber  <a href="https://www.instagram.com/laurenabarber/">
+  <img src="instagramlogo.jpg" alt="laurenabarber" style="width:25px;height:25px;border:0 float:right;"> 
+</a></h2>
+                <link rel="stylesheet" href="style.css">
+    <body>
             <button id="hamburger-button">
                 <div></div>
                 <div></div>
                 <div></div>
             </button>
-        </header>
         <nav id="top-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -30,15 +26,15 @@
             </ul>
         </nav>
         <main>
-            <h1>About Me!</h1>
-            <img class="circular--square" src="IMG_0931.jpg"  alt="ME" style="width:400%;max-width:250px" align=center >
-            <p>Hi babes, it's me, Lauren, aka @laurenabarber on instagram. Since you only see a little bit of bts about my life on instagram, I figured i'd show you a bit more here! To start things off, I am 20 yearsold, and studying digital media at the University of Pittsburgh. When im not studying for my next exam, I am on my way to difffernt modeling gigs, and creating branded content for my instagram. On this blog you'll be getting the inside scoop behind the photos that make me, me.  </p>
-            
-        </main>
+           <!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/890547" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:960px; height:160px"></iframe>
+
+   <div class="rightcolumn"></div>
+
+  </main>
         
        
-        <footer>
+  <footer>
             <p>&copy; laurenabarber</p>
         </footer>
     </body>
-</html>
