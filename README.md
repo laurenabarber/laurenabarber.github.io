@@ -38,10 +38,3 @@
         </footer>
     </body>
 </html>
-
-body {
-    font-family: "advent pro", advent pro , advent pro;
-    width: 90%;
-    background-color: white;
-    margin: 0 auto;
-}
