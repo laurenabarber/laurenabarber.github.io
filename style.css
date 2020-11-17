@@ -298,3 +298,18 @@ body {
     background-color: white;
     margin: 0 auto;
 }
+div {
+  float: left;
+  height: 470px;
+  width: 23%;
+  padding: 0 10px;
+}
+
+#column1 {
+  background-color: #a1edcc;
+}
+
+#column2 {
+  background-color: #a0e9ed;
+  width: 43%;
+}
